@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "iroiro-preview",
+  "description": "Preview the colors from iroiro in the browser",
   "version": "0.0.1",
   "scripts": {
     "start": "sapper dev",
