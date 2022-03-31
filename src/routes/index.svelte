@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import { colors } from 'iroiro';
+  import TrColor from '../lib/TrColor.svelte';
+</script>
+
+<h1><code>iroiro</code> preview</h1>
+<table>
+  <thead>
+    <th>Hex</th>
+    <th>Romanized</th>
+    <th>Name</th>
+  </thead>
+  <tbody>
+    {#each colors as color}
+      <TrColor {color} />
+    {/each}
+  </tbody>
+</table>
