@@ -1,5 +1,7 @@
 # Iroiro Preview
 
+[![CI](https://github.com/spenserblack/iroiro-preview/actions/workflows/ci.yml/badge.svg)](https://github.com/spenserblack/iroiro-preview/actions/workflows/ci.yml)
+
 Preview colors from [iroiro] in your browser.
 
 ## Developing
