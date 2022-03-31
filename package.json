@@ -13,7 +13,7 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "devDependencies": {
-    "@playwright/test": "^1.20.0",
+    "@playwright/test": "1.20.0",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
