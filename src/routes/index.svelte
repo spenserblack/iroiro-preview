@@ -21,6 +21,7 @@
 </p>
 <div class="table-container" style="background-color: { containerBg };">
   <table>
+    <caption>Click on text to copy it to the clipboard</caption>
     <thead>
       <th>Hex</th>
       <th>Romanized</th>

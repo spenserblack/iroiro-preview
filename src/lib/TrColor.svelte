@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Color } from 'iroiro';
+  import Copyable from './CopyClick.svelte';
 
   export let color: Color;
   $: light = color.lightness < 0.5;
@@ -7,9 +8,9 @@
 </script>
 
 <tr {style} class:light>
-  <td>{ color.value }</td>
-  <td>{ color.romanized }</td>
-  <td>{ color.name }</td>
+  <td><Copyable>{ color.value }</Copyable></td>
+  <td><Copyable>{ color.romanized }</Copyable></td>
+  <td><Copyable>{ color.name }</Copyable></td>
 </tr>
 
 <style>
