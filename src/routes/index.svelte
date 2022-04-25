@@ -1,25 +1,17 @@
 <script lang="ts">
   import { colors } from 'iroiro';
-  import TrColor from '../lib/TrColor.svelte';
 
-  const white = '#FFF';
-  const colorRegex = /^#(([\dA-F]){6}|([\dA-F]){3})$/i;
-  let bgInput = white;
-  $: containerBg = colorRegex.test(bgInput) ? bgInput : white;
+  import containerBg from '$lib/container-bg';
+  import TrColor from '$lib/TrColor.svelte';
+
+  let bgValue = '#FFF';
+
+  containerBg.subscribe((bg) => {
+    bgValue = bg;
+  });
 </script>
 
-<h1><code>iroiro</code> preview</h1>
-<label>
-  Set Background
-  <input bind:value={bgInput}>
-</label>
-<p>
-  <small>
-    Allows preview of what each color would look like <em>on</em>
-    another color
-  </small>
-</p>
-<div class="table-container" style="background-color: { containerBg };">
+<div class="table-container" style="background-color: { bgValue };">
   <table>
     <caption>Click on text to copy it to the clipboard</caption>
     <thead>
