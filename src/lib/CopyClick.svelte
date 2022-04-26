@@ -4,9 +4,10 @@
   let copyable;
   let successAlert;
   let failAlert;
-  const ClipboardItem = window.ClipboardItem ?? null;
+  let ClipboardItem;
 
   onMount(() => {
+    ClipboardItem = window.ClipboardItem ?? null;
     copyable.addEventListener('click', function() {
       const text = this.innerText;
       copyText(text, toggleHidden(successAlert), toggleHidden(failAlert));
