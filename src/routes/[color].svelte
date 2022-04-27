@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { colors } from 'iroiro';
-
   import containerBg from '$lib/container-bg';
   import TrColor from '$lib/TrColor.svelte';
+  import type { Color } from 'iroiro';
 
   let bgValue = '#FFF';
+  export let colors: Color[] = [];
 
   containerBg.subscribe((bg) => {
     bgValue = bg;
