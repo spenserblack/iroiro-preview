@@ -10,6 +10,11 @@
 </script>
 
 <h1><code>iroiro</code> preview</h1>
+<nav>
+  <ul>
+    <li><a href="/random">randomize</a></li>
+  </ul>
+</nav>
 <label>
   Set Background
   <input bind:value={bgInput}>
