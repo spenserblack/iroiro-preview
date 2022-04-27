@@ -4,6 +4,10 @@
 
 Preview colors from [iroiro] in your browser.
 
+This website isn't pretty, but should serve as a functional utility for getting
+and previewing [iroiro] colors, which may not be accurate when displayed in the
+terminal. 
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
