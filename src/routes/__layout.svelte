@@ -12,6 +12,7 @@
 <h1><code>iroiro</code> preview</h1>
 <nav>
   <ul>
+    <li><a href="/">all</a></li>
     <li><a sveltekit:reload href="/random">randomize</a></li>
   </ul>
 </nav>
