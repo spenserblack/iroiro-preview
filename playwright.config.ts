@@ -1,6 +1,6 @@
 const config = {
   webServer: {
-    command: 'npm run build && npm run preview',
+    command: 'yarn build && yarn preview --port 3000',
     port: 3000
   }
 };
