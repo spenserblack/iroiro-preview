@@ -13,7 +13,7 @@
 <nav>
   <ul>
     <li><a href="/">all</a></li>
-    <li><a sveltekit:reload href="/random">randomize</a></li>
+    <li><a data-sveltekit-reload href="/random">randomize</a></li>
   </ul>
 </nav>
 <label>
