@@ -1,9 +1,7 @@
 import { getColors } from 'iroiro';
 
-export function get({ params }) {
+export function load({ params }) {
   const colors = getColors(params.color);
 
-  return {
-    body: { colors },
-  };
+  return { colors };
 }
