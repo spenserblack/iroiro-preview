@@ -1,4 +1,6 @@
 <script lang="ts">
+  throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+
   import containerBg from '$lib/container-bg';
   import TrColor from '$lib/TrColor.svelte';
   import type { Color } from 'iroiro';
