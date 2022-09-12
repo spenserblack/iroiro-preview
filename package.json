@@ -12,7 +12,7 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "devDependencies": {
-    "@playwright/test": "1.25.1",
+    "@playwright/test": "1.25.2",
     "@sveltejs/adapter-auto": "^1.0.0-next.71",
     "@sveltejs/kit": "^1.0.0-next.472",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
