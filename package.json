@@ -17,7 +17,7 @@
     "@sveltejs/kit": "^1.0.0-next.472",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
-    "eslint": "^8.23.0",
+    "eslint": "^8.23.1",
     "eslint-plugin-svelte3": "^4.0.0",
     "svelte": "^3.50.0",
     "svelte-check": "^2.8.1",
