@@ -4,6 +4,11 @@
 
 Preview colors from [iroiro] in your browser.
 
+:warning: Archived
+
+I decided to make [iroiro.css][iroiro-css] to have an actual stylesheet that
+could be imported. I'll be adding a preview to that, so this isn't needed.
+
 This website isn't pretty, but should serve as a functional utility for getting
 and previewing [iroiro] colors, which may not be accurate when displayed in the
 terminal. 
@@ -36,3 +41,4 @@ You can preview the production build with `yarn preview`.
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
 [iroiro]: https://github.com/antfu/iroiro
+[iroiro-css]: https://github.com/spenserblack/iroiro.css
